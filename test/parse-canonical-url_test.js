@@ -8,7 +8,7 @@ var assert = require('assert')
 describe('Parse canonical url tests', function () {
     it('parse canonical supported url if asked for', function (done) {
 
-        var askedUrl = "http://www.cnn.com.co.il";
+        var askedUrl = "http://www.ynet.co.il";
         return parseCanonicalUrl.canonical(askedUrl)
             .then(function(result) {
 
