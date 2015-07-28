@@ -24,6 +24,9 @@
     "node",
     "canonical"
   ],
+  "engines": {
+    "node": ">=0.10.0"
+  }
   "devDependencies": {
     "gulp": "^3.8.10",
     "gulp-bump": "^0.1.11",
