@@ -41,6 +41,7 @@
     "test": "gulp test"
   },
   "dependencies": {
+    "bluebird": "^2.9.34",
     "htmlparser2": "^3.8.3",
     "request": "^2.60.0",
     "valid-url": "^1.0.9"
