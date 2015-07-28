@@ -39,9 +39,7 @@
   },
   "dependencies": {
     "htmlparser2": "^3.8.3",
-    "path": "^0.11.14",
     "request": "^2.60.0",
-    "shelljs": "^0.3.0",
     "valid-url": "^1.0.9"
   }
 }
