@@ -1,0 +1,47 @@
+{
+  "name": "parse-canonical-url",
+  "version": "0.0.1",
+  "main": "lib/parse-canonical-url.js",
+  "description": "Parse canonical url of cross device supported web sites.",
+  "homepage": "https://github.com/agavish/parse-canonical-url",
+  "bugs": "https://github.com/agavish/parse-canonical-url/issues",
+  "author": {
+    "name": "Adam Gavish",
+    "email": "agavish@gmail.com",
+    "url": "www.github.com/agavish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agavish/parse-canonical-url"
+  },
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "parse-canonical-url",
+    "url",
+    "node",
+    "canonical"
+  ],
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-bump": "^0.1.11",
+    "gulp-git": "^0.5.6",
+    "gulp-istanbul": "^0.5.0",
+    "gulp-mocha": "^2.0.0",
+    "gulp-tag-version": "^1.2.1",
+    "jshint-stylish": "^0.2.0",
+    "mocha": "^2.1.0"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "dependencies": {
+    "htmlparser2": "^3.8.3",
+    "path": "^0.11.14",
+    "request": "^2.60.0",
+    "shelljs": "^0.3.0",
+    "valid-url": "^1.0.9"
+  }
+}
