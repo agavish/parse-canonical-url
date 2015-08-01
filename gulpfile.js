@@ -25,7 +25,7 @@ gulp.task('test', function (cb) {
 
 gulp.task("bump", function () {
     gulp.src('./package.json')
-        .pipe(bump({type: 'patch' }))
+        .pipe(bump({type: 'minor' }))
         .pipe(gulp.dest('./'))
         .pipe(git.commit('bumps package version'));
 });

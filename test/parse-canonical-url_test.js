@@ -6,6 +6,8 @@ var assert = require('assert')
 
 
 describe('Parse canonical url tests', function () {
+    this.timeout(50000);
+
     it('parse canonical supported url if asked for', function (done) {
 
         var askedUrl = "http://www.ynet.co.il";
