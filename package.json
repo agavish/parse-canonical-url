@@ -1,6 +1,6 @@
 {
   "name": "parse-canonical-url",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "main": "lib/parse-canonical-url.js",
   "description": "Parse canonical url of cross device supported web sites.",
   "homepage": "https://github.com/agavish/parse-canonical-url",
