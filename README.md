@@ -1,9 +1,5 @@
-# parse-canonical-url
+# parse-canonical-url [![Build Status](https://secure.travis-ci.org/agavish/parse-canonical-url.png?branch=master)](http://travis-ci.org/agavish/parse-canonical-url)
 Parse canonical url of cross device supported web sites.
-
-#  [![Build Status](https://secure.travis-ci.org/agavish/parse-canonical-url.png?branch=master)](http://travis-ci.org/agavish/parse-canonical-url)
-
-
 
 ## What?
 <br>
@@ -32,17 +28,19 @@ return parseCanonicalUrl.canonical(askedUrl)
                 console.log(result);
             })
             .catch(function(err) {
-				console.log(err);
+                console.log(err);
             });
-
+```
 OR
+```
+var parseCanonicalUrl = require('parse-canonical-url');
 
 return parseCanonicalUrl.alternate(askedUrl)
             .then(function(result) {
                 console.log(result);
             })
             .catch(function(err) {
-				console.log(err);
+                console.log(err);
             });
             
 ```
